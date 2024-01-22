@@ -1,7 +1,22 @@
-.homepage{
+.homepage {
     min-height: 100vh;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+
 }
+
+.head {
+   
+    font-family: 'Noto Sans Sundanese', sans-serif;
+    font-size: 3rem;
+}
+
+.tagline{
+
+    font-family: 'Noto Sans Sundanese', sans-serif;
+    font-size: 1rem;
+}
+
