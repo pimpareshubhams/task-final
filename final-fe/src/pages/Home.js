@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <>
     <div className='homepage'>
-      <h1 className='head'>Mindful Gurukul</h1>
+      <p className='head'>Mindful Gurukul's</p>
+      <p className='tagline'>Full Stack Developer Task</p>
     </div>
     </>
   )
