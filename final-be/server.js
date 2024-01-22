@@ -5,7 +5,7 @@ const app = express()
 app.use(express.json())
 app.use(cors(
   {
-    origin: ["https://task-final-fe-brown.vercel.app"],
+    origin: ["https://task-final-fe.vercel.app"],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true
   }
