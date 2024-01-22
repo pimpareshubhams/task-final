@@ -149,7 +149,7 @@ const Dashboard = () => {
 
     const handleAddUser = async () => {
         try {
-            if (!newUser.name || !newUser.email || !newUser.phone || newUser.password) {
+            if (!newUser.name || !newUser.email || !newUser.phone || !newUser.password) {
                 // Handle the case where some fields are empty
                 console.error('Please fill in all the required fields.');
                 toast('Please fill in all the required fields.')
